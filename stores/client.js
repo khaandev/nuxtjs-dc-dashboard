@@ -147,6 +147,8 @@ export const useClientStore = defineStore("client", () => {
             });
         } catch (err) {
             toast.error("Failed to toggle active status.");
+
+
             throw err;
         }
     }
